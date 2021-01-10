@@ -1,0 +1,230 @@
+body{
+	font-family: 'Palatino', sans-serif;
+	background: #bedaba
+}
+p{
+	font-family: 'Trebuchet MS', sans-serif;
+}
+
+p1{
+	font-size: 20px;
+	font-family: 'Trebuchet MS', sans-serif;
+	color: #010101;
+}
+p2{
+	font-size: 18px;
+	font-family: 'Trebuchet MS', sans-serif;
+	color: #666666;
+}
+a{
+	font-family: 'Palatino', sans-serif;
+	color: #004d26;
+	text-decoration: none;
+}
+h7{
+	font-size: 35px;
+	font-family: 'Palatino', sans-serif;
+	color: black
+}
+h3: 
+{
+
+
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Palatino', sans-serif;
+	colour: #004d26;
+}
+.dl-menu.dl-animate-out-1 {
+	animation: MenuAnimOut1 0.4s linear forwards;
+}
+
+@keyframes MenuAnimOut1 {
+	50% {
+		transform: translateZ(-250px) rotateY(30deg);
+	}
+	75% {
+		transform: translateZ(-372.5px) rotateY(15deg);
+		opacity: .5;
+	}
+	100% {
+		transform: translateZ(-500px) rotateY(0deg);
+		opacity: 0;
+	}
+}
+
+.dl-menu.dl-animate-in-1 {
+	animation: MenuAnimIn1 0.3s linear forwards;
+}
+
+@keyframes MenuAnimIn1 {
+	0% {
+		transform: translateZ(-500px) rotateY(0deg);
+		opacity: 0;
+	}
+	20% {
+		transform: translateZ(-250px) rotateY(30deg);
+		opacity: 0.5;
+	}
+	100% {
+		transform: translateZ(0px) rotateY(0deg);
+		opacity: 1;
+	}
+}
+
+.column {
+  float: left;
+  width: 33.333%;
+}
+
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.rectangle {
+  height: 3px;
+  width: 600px;
+  background-color: #00b359;
+}
+/*Header*/
+.navbar{
+	background: #004d26
+}
+.navbar-default .navbar-nav>li>a {
+color: #fff;
+text-transform: uppercase;
+}
+.navbar-default .navbar-nav>li>a:hover{
+	color: #777;
+}
+header{
+	background: url("sus_fashion.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.section_overlay{
+	background: rgba(250,250,250, .6);
+}
+.home_text{
+	padding-top: 210px;
+	padding-bottom: 210px;
+}
+.home_text h2{
+	color: #010101;
+	font-size: 40px;
+	text-transform: uppercase;
+	letter-spacing: 13px;
+}
+.home_text p{
+	color: #010101;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+.home_text img{}
+.scroll_down{
+	padding-bottom: 50px;
+}
+.scroll_down h4{
+	font-size: 12px;
+	color: #000;
+	font-family: 'Trebuchet MS', sans-serif;
+	text-transform: uppercase;
+}
+
+
+/*Options*/
+.options{
+	padding-top: 20px;
+	background: white;
+
+}
+.options .container{
+	border-bottom: 1px solid #ff99bb;
+}
+.single_option{
+	padding-bottom: 96px;
+}
+.single_option i{
+	font-size: 25px;
+	color: #afe4ff;
+}
+.single_option h2{
+	color: #000000;
+	font-size: 25px;
+	text-transform: uppercase;
+}
+.single_option p{
+	color: #404040;
+	font-size: 14px;
+}
+.single_progress_bar .progress {
+height: 1px;
+margin-bottom: 20px;
+overflow: hidden;
+background-color: #ff3377;
+border-radius: 0px;
+-webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+}
+.single_progress_bar .progress-bar {
+background-color: #ff99bb;
+}
+.single_progress_bar h2{
+	color: 000;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+/* Set the colours, font, padding etc. of the buttons*/
+button {
+	border-radius: 20px;
+	border: 1px solid #C2E0EF;
+	background-color: #C2E0EF;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 12px 30px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
+}
+
+
+
+.fashion_p{
+	font-size: 24px;
+	color: #272727;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	line-height: 21px;
+}
+.fashion_title h2{
+	font-size: 25px;
+	color: #3d3d3d;
+	text-transform: uppercase;
+	margin-top: 85px;
+	letter-spacing: 6px;
+	margin-bottom: 21px;
+}
+.fashion_title img{
+	margin-bottom: 70px;
+}
+.no_padding{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.padding{
+	padding-left: 10px;
+	padding-right: 10px;
+
+}
+
